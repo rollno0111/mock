@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Suntek",
+        "price": 23459,
+        "img": "suntek.png",
+        "desc":"Suntek water heaters come in a wide variety of designs, all including a collector and storage tank, and all using the sun's thermal energy to heat water"
+    },
+    {
+        "name": "A4solar",
+        "price": 28499,
+        "img": "a4solar.jpg",
+        "desc":"A4solar heater is made up with all good quality materials. All solar TANKS are tested under high pressure and capacity for long lasting LIFE."
+    },
+    {
+        "name": "SupremeSolar",
+        "price": 20509,
+        "img": "supremesolar.png",
+        "desc":"Supreme solar can supplies 70-degree c temperature of hot water retains up to 48 Hrs. Save electricity bill on water heating costs."
+    },
+    {
+        "name": "IcarusHeaters",
+        "price": 32529,
+        "img": "icarusheaters.png",
+        "desc":"IcarusHeaters offers a wide range of Solar Water Heaters designed to provide the most effective way to generate hot water, saving costly power "
+    },
+    {
+        "name": "MagnumTurbo",
+        "price": 30500,
+        "img": "magnumturbo.png",
+        "desc":"MagnumTurbo is one of the largest manufacturer & offers one of the best solar domestic water heater/geyser system for your home"
+    },
+    {
+        "name": "Blitz",
+        "price": 18999,
+        "img": "blitz.png",
+        "desc":"Buy solar water heaters. With the compact looks, low height and light weight models Blitz Solar water could be the best electricity saver for Home"
+    }
+]

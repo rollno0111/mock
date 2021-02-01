@@ -1,0 +1,22 @@
+<div class="row bgdark" *ngIf="cardData.length && !selectedSolar">
+    <div class="col-md-4 pt-4" *ngFor="let item of cardData">
+        <div class="card" style="width:100%;max-width: 350px;">
+            <!-- load image  in the below image tag -->
+            <img class="card-img-top" [src]="'../../assets/'+item.img" alt="">
+            <div class="card-body">
+                <!-- populate the values of the card in appropriate tags and create the Purchase button -->
+                <h4 class="card-title">{{item.name}}</h4>
+                <p class="card-text">{{item.desc}}</p>
+                <p class="card-text">Starting from {{item.price|currency:"INR"}}</p>
+                <button class="btn btn-primary" (click)="loadForm(item.name)">Purchase</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" *ngIf="selectedSolar">
+    <!-- display the below row only when selectedSolar is populated -->
+    <div class="col-md-5 offset-md-4">
+        <!-- load allocation form component with necessary property and event bindings -->
+        <app-allocation-form (loadCard)="loadSolarHeaters()" [distributed]="selectedSolar"></app-allocation-form>
+    </div>
+</div>

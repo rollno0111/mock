@@ -1,0 +1,58 @@
+<div class="card mt-5 text-dark">
+    <div class="card-body">
+        <div class="card-title">
+            <!-- display the selected distributor name -->
+            <h3> {{distributor}} Solar Heater</h3>
+        </div>
+        <!-- form implementation goes here -->
+        <form [formGroup]="allocateForm">
+
+            <div class="form-group">
+                <label>Customer Name</label>
+                <input type="text" class="form-control" id="name" formControlName="name" />
+                <div class="text-danger" id="nameErr" *ngIf="name.invalid && name.touched">
+                    <span *ngIf="name.errors.required">Enter Cutomer Name</span>
+
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Purchase Date</label>
+                <input type="date" class="form-control" id="purchaseDate" formControlName="purchaseDate" />
+                <div class="text-danger" id="purchaseDateErr" *ngIf="purchaseDate.invalid && purchaseDate.touched">
+                    <span *ngIf="purchaseDate.errors.required">Enter Purchase Date</span>
+
+                    <span *ngIf="purchaseDate.errors.dateError">{{
+                        purchaseDate.errors.dateError.message
+              }}</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Installation Date</label>
+                <input type="date" class="form-control" id="installationDate" formControlName="installationDate" />
+                <div class="text-danger" id="installationDateErr"
+                    *ngIf="installationDate.invalid && installationDate.touched">
+                    <span *ngIf="installationDate.errors.required">Enter Installation Date</span>
+
+                    <span *ngIf="installationDate.errors.dateError">{{
+                        installationDate.errors.dateError.message
+              }}</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Location</label>
+                <input type="text" class="form-control" id="location" formControlName="location" />
+                <div class="text-danger" id="locationErr" *ngIf="location.invalid && location.touched">
+                    <span *ngIf="location.errors.required">Enter Location</span>
+
+
+                </div>
+            </div>
+            <div class="text-danger">* field are mandatory</div>
+            <button class="btn btn-primary" [disabled]="!allocateForm.valid" (click)="allocateSolar()">Allocate</button>
+            <button class="btn btn-link" (click)="loadHeaters()">Check out other heaters</button>
+            <span class="text-danger" *ngIf="errorMessage" id="errorMessage">{{errorMessage}}</span>
+            <span class="text-sucsess" *ngIf="successMessage" id="successMessage" {{successMessage}}></span>
+        </form>
+    </div>
+</div>

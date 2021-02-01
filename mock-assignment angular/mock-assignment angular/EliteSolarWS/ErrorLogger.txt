@@ -1,0 +1,69 @@
+Fri Jan 08 2021 11:58:01 GMT+0530 (India Standard Time) - Error: Customer name cannot have special characters
+    at Object.Validator.validateCustomer (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\utilities\validator.js:5:19)
+    at Object.allocateService.allocate (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\service\allocate.js:7:15)
+    at C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\routes\routing.js:12:48
+    at Layer.handle [as handle_request] (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:317:13)
+Fri Jan 08 2021 11:58:43 GMT+0530 (India Standard Time) - Error: Allocation Failed
+    at Object.allocateDB.allocateHeater (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\model\allocate.js:21:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Object.allocateService.allocate (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\service\allocate.js:10:22)
+    at async C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\routes\routing.js:12:26
+Fri Jan 08 2021 12:04:53 GMT+0530 (India Standard Time) - Error: Installation Date should be greater than Purchase Date
+    at Object.Validator.validateDate (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\utilities\validator.js:23:19)
+    at Object.allocateService.allocate (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\service\allocate.js:8:15)
+    at C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\routes\routing.js:12:48
+    at Layer.handle [as handle_request] (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\node_modules\express\lib\router\index.js:317:13)
+Fri Jan 08 2021 12:06:37 GMT+0530 (India Standard Time) - Error: Allocation Failed
+    at Object.allocateDB.allocateHeater (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\model\allocate.js:21:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Object.allocateService.allocate (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\service\allocate.js:10:22)
+    at async C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\routes\routing.js:12:26
+Fri Jan 08 2021 12:07:55 GMT+0530 (India Standard Time) - Error: Allocation Failed
+    at Object.allocateDB.allocateHeater (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\model\allocate.js:21:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Object.allocateService.allocate (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\service\allocate.js:10:22)
+    at async C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\routes\routing.js:12:26
+Fri Jan 08 2021 12:15:37 GMT+0530 (India Standard Time) - Error: No data found
+    at Object.allocateDB.fetchDetails (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\model\allocate.js:33:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Object.allocateService.fetchDetails (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\service\allocate.js:15:16)
+    at async C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\routes\routing.js:21:20
+Fri Jan 08 2021 12:16:05 GMT+0530 (India Standard Time) - Error: No data found
+    at Object.allocateDB.fetchDetails (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\model\allocate.js:33:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Object.allocateService.fetchDetails (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\service\allocate.js:15:16)
+    at async C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\routes\routing.js:21:20
+Fri Jan 08 2021 12:16:33 GMT+0530 (India Standard Time) - Error: No data found
+    at Object.allocateDB.fetchDetails (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\model\allocate.js:33:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Object.allocateService.fetchDetails (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\service\allocate.js:15:16)
+    at async C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\routes\routing.js:21:20
+Fri Jan 08 2021 12:16:50 GMT+0530 (India Standard Time) - Error: No data found
+    at Object.allocateDB.fetchDetails (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\model\allocate.js:33:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Object.allocateService.fetchDetails (C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\service\allocate.js:15:16)
+    at async C:\Users\nilesh.pandey\Desktop\n64616sk\EliteSolar-toTrainee\EliteSolarWS\src\routes\routing.js:21:20
